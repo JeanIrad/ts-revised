@@ -369,12 +369,135 @@ h4 {
 .bar:first-child {
   background-color: #000c24;
 }
-.progress-bar {
-  /* background-color: #f44336; */
-  /* padding: 50px 0; */
+
+/* blog */
+.blogs {
+  position: absolute;
+  top: 3198px;
+  width: 100%;
+}
+.blogs .blog-top-bg {
+  background-color: #d9d9d9;
+  padding: 30px 50px;
+  color: #000c24;
+  border-radius: 20px;
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.blogs .blog-top-bg p {
+  color: #000c24;
+  line-height: 170%;
+  font-size: 24px;
 }
 
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+}
+.blog-cards .blog__card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 1px 40px rgba(146, 138, 151, 0.5);
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+  padding-bottom: 30px;
+}
+.blog-cards .blog__card .text-container h2 {
+  color: #000c24;
+  line-height: 170%;
+  font-size: 24px;
+  margin-left: 0.5rem;
+}
+.blog-cards .blog__card .text-container p {
+  line-height: 120%;
+  margin-left: 1.5rem;
+  color: #000c24;
+  font-size: 18px;
+}
+
+.blog-cards .blog__card img {
+  width: 100%;
+  border-radius: 10px;
+  border-top-right-radius: 25%;
+}
+.blog-cards .blog__card .text-container .like__icons {
+  margin: 1rem;
+  margin-left: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  /* background-color: #000c24; */
+}
+
+.blog-cards .blog__card .text-container .like__icons i,
+a,
+span {
+  color: #f44336;
+}
+.blogs .progress-bar {
+  display: inline-block;
+  margin: 1rem auto;
+  margin-left: 40%;
+}
+
+.home-contact-view {
+  position: absolute;
+  top: 4100px;
+  bottom: 0;
+}
+.contact-main-container {
+  position: relative;
+  width: 100%;
+}
+.home-contact-view .contact-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 20px 30px;
+}
+
+.home-contact-view .contact-container .contact-text {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+.home-contact-view .contact-container .contact-text p {
+  color: #000c24;
+  line-height: 120%;
+  font-size: 24px;
+}
+
+.home-contact-view .contact-container form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.home-contact-view .contact-container form h1 {
+  color: #000c24;
+  margin-bottom: 1.5rem;
+}
+.home-contact-view .contact-container form input {
+  margin-bottom: 1rem;
+  padding-left: 10px;
+  border: 1.5px solid #000c24;
+  height: 2.5rem;
+  outline: none;
+  border-radius: 4px;
+}
+
+.home-contact-view .contact-container form button {
+  background-color: #000c24;
+  padding: 10px 20px;
+}
 /* Mobile first Design */
+
 @media screen and (max-width: 600px) {
   body {
     max-width: 100%;
