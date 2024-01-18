@@ -358,6 +358,9 @@ h4 {
   display: inline-block;
   margin-right: 0.2rem;
 }
+.bar:first-child {
+  background-color: #000c24;
+}
 .progress-bar {
   /* background-color: #f44336; */
   /* padding: 50px 0; */
