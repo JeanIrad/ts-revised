@@ -290,6 +290,7 @@ height: 288px; */
   width: 90%;
   min-height: 500px;
   object-fit: cover;
+  transform: skewY(-5deg);
 }
 #scroll-icon {
   position: absolute;
@@ -348,7 +349,7 @@ h4 {
   cursor: pointer;
 }
 .progress-bar {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
 }
 .bar {
@@ -357,6 +358,13 @@ h4 {
   background-color: #928a97;
   display: inline-block;
   margin-right: 0.2rem;
+  position: relative;
+}
+.bar span {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  color: #000c24;
 }
 .bar:first-child {
   background-color: #000c24;
