@@ -1,0 +1,86 @@
+/* Group 77 */
+
+position: absolute;
+width: 525px;
+height: 688px;
+left: 102px;
+top: 2510px;
+
+/* BG */
+
+position: absolute;
+width: 152px;
+height: 192px;
+left: 102px;
+top: 2510px;
+
+background: url(Image.png);
+
+/* Group 4 */
+
+position: absolute;
+width: 475px;
+height: 653px;
+left: 152px;
+top: 2545px;
+
+/* BG */
+
+position: absolute;
+width: 475px;
+height: 653px;
+left: 152px;
+top: 2545px;
+
+background: linear-gradient(0deg, rgba(0, 12, 36, 0.3), rgba(0, 12, 36, 0.3)),
+  url(.jpg);
+
+/* BG */
+
+position: absolute;
+visibility: hidden;
+width: 475px;
+height: 653px;
+left: 152px;
+top: 2545px;
+
+background: url(.jpg), #c4c4c4;
+
+/* Group 78 */
+
+position: absolute;
+width: 100px;
+height: 64px;
+left: 519px;
+top: 2822px;
+
+filter: drop-shadow(0px 2px 6px rgba(247, 223, 223, 0.2));
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 100px;
+height: 64px;
+left: 519px;
+top: 2822px;
+
+background: #928a97;
+border-radius: 35px 0px 0px 35px;
+
+/* Frame */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 551px;
+top: 2836px;
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 25%;
+bottom: 25%;
+
+background: #ffffff;
