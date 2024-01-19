@@ -7,7 +7,11 @@
   font-family: "League Spartan", sans-serif;
   color: #fff;
 }
-
+:root{
+  --background-color: #000c24;
+  --normal-text-color: #fff,
+  --heading-color: #f44336
+}
 body {
   max-width: 100vw;
   min-height: 100vh;
@@ -525,11 +529,16 @@ div {
 }
 /* Mobile first Design */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   body {
-    max-width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--background-color);
   }
-  nav .fa-moon {
+  #main-bg {
+    display: none;
+  }
+  /* nav .fa-moon {
     justify-self: flex-start;
     display: none;
   }
@@ -574,5 +583,5 @@ div {
     font-size: 30px;
     color: #fff;
     cursor: pointer;
-  }
+  } */
 }
